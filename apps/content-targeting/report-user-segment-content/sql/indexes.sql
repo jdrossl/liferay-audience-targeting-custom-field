@@ -1,3 +1,0 @@
-create index IX_F2DDDB89 on ContentTargeting_UserSegmentContentReport_UserSegmentContent (userSegmentId);
-create unique index IX_B5EDB6CB on ContentTargeting_UserSegmentContentReport_UserSegmentContent (userSegmentId, className, classPK, eventType);
-create index IX_F219214 on ContentTargeting_UserSegmentContentReport_UserSegmentContent (userSegmentId, modifiedDate);
